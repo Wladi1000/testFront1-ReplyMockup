@@ -1,0 +1,33 @@
+.btn{
+  appearance: none;
+  padding: 0px 10x;
+  width: 140px;
+  
+  border-radius: var(--btn-border-radius);
+  font-weight: 600;
+
+  transition: all 0.2s;
+}
+.btn:hover{
+  transform: scale(1.1);
+}
+.btn.primary{
+  border: var(--btn-border-primary);
+  background: var(--btn-bc-primary);
+  color: var(--btn-txt-primary);
+}
+.btn.primary:active{
+  border: var(--btn-border-secondary);
+  background: var(--btn-bc-secondary);
+  color: var(--btn-txt-secondary);
+}
+.btn.secondary{
+  border: var(--btn-border-secondary);
+  background: var(--btn-bc-secondary);
+  color: var(--btn-txt-secondary);
+}
+.btn.secondary:active{
+  border: var(--btn-border-primary);
+  background: var(--btn-bc-primary);
+  color: var(--btn-txt-primary);
+}

@@ -1,0 +1,34 @@
+:root{
+  --header-top-txt-color1: #fff;
+  --header-top-txt-color2: #02557D;
+  --header-top-bc-color2: #02557D;
+  --header-top-bc-color2: #fff;
+  
+  --header-btt-txt-color1: #fff;
+  --header-btt-bc-color1: transparent;
+  --header-btt-bc-color2: #02557D;
+
+  --hero-txt-color1: #fff;
+
+  --hero-form-bc: #02557D;
+  --hero-form-border: #FFB749 solid 1px;
+
+  --btn-border-primary: #fff solid 1px;
+  --btn-border-secondary: #FFB749 solid 1px;
+  --btn-border-radius: 1rem;
+  
+  --btn-txt-primary: #fff;
+  --btn-txt-secondary: #FFB749;
+  --btn-bc-primary: #FFB749;
+  --btn-bc-secondary: #fff;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  position: relative;
+}
+p{
+  margin: 0;
+}

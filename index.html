@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test Front-end - Wladimir Sanvicente</title>
+
+  <!-- Btstp -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+
+  <!-- Own Styles -->
+  <link rel="stylesheet" href="./src/styles/base.css">
+  <link rel="stylesheet" href="./src/styles/section-subtitulo.css">
+  <link rel="stylesheet" href="./src/styles/buttom.css">
+  <link rel="stylesheet" href="./src/styles/header.css">
+  <link rel="stylesheet" href="./src/styles/hero.css">
+  <link rel="stylesheet" href="./src/styles/mostPopular.css">
+  <link rel="stylesheet" href="./src/styles/about-us.css">
+  <link rel="stylesheet" href="./src/styles/beneficios.css">
+  <link rel="stylesheet" href="./src/styles/study-careers.css">
+  <link rel="stylesheet" href="./src/styles/team.css">
+  <link rel="stylesheet" href="./src/styles/reviews.css">
+  <link rel="stylesheet" href="./src/styles/footer.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__top">
+      <div class="header__top__contactos">
+        <div class="header__top__contactos__telefono">
+          <i class="bi bi-telephone-fill"></i>
+          <p>123 456 789</p>
+        </div>
+        <div class="header__top__contactos__email">
+          <i class="bi bi-envelope-fill"></i>
+          <p>info@email.com</p>
+        </div>
+      </div>
+      <!--  -->
+      <ul class="header__top__social">
+        <li>
+          <i class="bi bi-youtube"></i>
+        </li>
+        <li>
+          <i class="bi bi-instagram"></i>
+        </li>
+        <li>
+          <i class="bi bi-facebook"></i>
+        </li>
+      </ul>
+    </div>
+    <div class="header__bottom">
+      <img src="./src/imagenes/LOGO.png" alt="universidad-logo" class="header__bottom--logo">
+      <nav class="header__bottom__nav">
+        <ul>
+          <li><a href="">About Us</a></li>
+          <li><a href="">Courses</a></li>
+          <li><a href="">Team</a></li>
+          <li><a href="">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" id="hero">
+    <video src="./src/Videos/hero-video.mp4" autoplay="true" muted="true" loop="true"></video>
+    <div class="hero__msg">
+      <h1>Welcome a the University</h1>
+      <!--  -->
+      <div class="hero__msg--linea"></div>
+      <p>We are an online<br>platform to make learning</p>
+      <button class="hero__msg--btn btn primary">Get Now</button>
+    </div>
+    <!--  -->
+    <div class="hero__form">
+      <h2 class="hero__form--titulo">Register Now !</h2>
+      <input type="text" class="hero__form--name" placeholder="Name">
+      <div class="hero__form__contacto">
+        <input type="email" class="hero__form__contacto--email" placeholder="Email">
+        <input type="tel" class="hero__form__contacto--telefono" placeholder="Phone">
+      </div>
+      <input type="text" class="hero__form--encabezado" placeholder="Subject">
+      <input type="text" class="hero__form--msg" placeholder="Message">
+      <button class="hero__form--btn btn primary">Send</button>
+    </div>
+  </section>
+  <section class="most-popular">
+    <div class="most-popular__msg subtitulo">
+      <h1>The most popular</h1>
+      <div class="most-popular__msg--linea subtitulo--linea"></div>
+      <p>know what we offer you</p>
+    </div>
+    <div class="most-popular__carrusel">
+      <div class="most-popular__carrusel__card">
+        <img src="./src/imagenes/IMAGE CURSO 1.jpg" alt="">
+        <p>Design for the web with adobe photoshop</p>
+        <button class="btn primary">Read More</button>
+      </div>
+      <div class="most-popular__carrusel__card">
+        <img src="./src/imagenes/IMAGE CURSO 2.jpg" alt="">
+        <p>Design for the web with adobe photoshop</p>
+        <button class="btn primary">Read More</button>
+      </div>
+      <div class="most-popular__carrusel__card">
+        <img src="./src/imagenes/IMAGE CURSO 3.jpg" alt="">
+        <p>Design for the web with adobe photoshop</p>
+        <button class="btn primary">Read More</button>
+      </div>
+      <div class="most-popular__carrusel__card">
+        <img src="./src/imagenes/IMAGE CURSO 4.jpg" alt="">
+        <p>Design for the web with adobe photoshop</p>
+        <button class="btn primary">Read More</button>
+      </div>
+    </div>
+    <button class="btn secondary">View More</button>
+  </section>
+  <section class="about-us" id="about-us">
+    <div class="about-us__txt">
+      <div class="about-us__txt__msg subtitulo">
+        <h1>About Us</h1>
+        <div class="subtitulo--linea"></div>
+        <p>Know everything we do for you</p>
+      </div>
+      <p class="about-us__txt--txt">The university is a physical, buildings, laboratoties, libreries... where students
+        and teachers meet. The university is also a human-social system, that is, a set of elements that are related and
+        interact with each other.</p>
+      <button class="about-us--more btn primary">Read more</button>
+    </div>
+    <img src="./src/imagenes/IMAGE ABOUT US.jpg" alt="about us image">
+    <button class="about-us--more mobile btn primary">Read more</button>
+  </section>
+  <section class="beneficios" id="beneficios">
+    <ul>
+      <li>
+        <div>
+          <img src="./src/imagenes/ICONO 1.png" alt="">
+        </div>
+        <p>Excellent Content</p>
+      </li>
+      <li>
+        <div>
+          <img src="./src/imagenes/ICONO 2.png" alt="">
+        </div>
+        <p>Experts Instructor</p>
+      </li>
+      <li>
+        <div>
+          <img src="./src/imagenes/ICONO 3.png" alt="">
+        </div>
+        <p>The Best Professionals</p>
+      </li>
+      <li>
+        <div>
+          <img src="./src/imagenes/ICONO 4.png" alt="">
+        </div>
+        <p>Countless Courses</p>
+      </li>
+    </ul>
+  </section>
+  <section class="study-carreers" id="careers">
+    <div class="study-carreers__msg subtitulo">
+      <h1>Study carreers</h1>
+      <div class="subtitulo--linea"></div>
+      <p>Explore the different careers we offer</p>
+    </div>
+    <div class="study-carreers__grid">
+      <div class="study-carreers__grid__card medium">
+        <img src="./src/imagenes/IMAGE  CATEGORY ADMINISTRATION.jpg" alt="">
+        <div>
+          <p>Administration</p>
+          <button class="btn primary">Explore</button>
+        </div>
+      </div>
+      <div class="study-carreers__grid__card medium">
+        <img src="./src/imagenes/IMAGE  CATEGORY ACCOUNTING.jpg" alt="">
+        <div>
+          <p>Accounting</p>
+          <button class="btn primary">Explore</button>
+        </div>
+      </div>
+      <div class="study-carreers__grid__card small">
+        <img src="./src/imagenes/IMAGE  CATEGORY MATHEMATICS.jpg" alt="">
+        <div>
+          <p>Mathematics</p>
+          <button class="btn primary">Explore</button>
+        </div>
+      </div>
+      <div class="study-carreers__grid__card small">
+        <img src="./src/imagenes/IMAGE  CATEGORY PROGRAMMING.jpg" alt="">
+        <div>
+          <p>Programming</p>
+          <button class="btn primary">Explore</button>
+        </div>
+      </div>
+      <div class="study-carreers__grid__card large">
+        <img src="./src/imagenes/IMAGE  CATEGORY ARCHITECTURE.jpg" alt="">
+        <div>
+          <p>Architecture</p>
+          <button class="btn primary">Explore</button>
+        </div>
+      </div>
+      <div class="study-carreers__grid__card small">
+        <img src="./src/imagenes/IMAGE  CATEGORY BIOLOGY.jpg" alt="">
+        <div>
+          <p>Biology</p>
+          <button class="btn primary">Explore</button>
+        </div>
+      </div>
+    </div>
+    <button class="study-carreers--more btn secondary">View More</button>
+  </section>
+  <section class="team" id="team">
+    <div class="team__msg subtitulo">
+      <h1>Our Team</h1>
+      <div class="subtitulo--linea"></div>
+      <p>Meet the best professionals</p>
+    </div>
+    <div class="team__carrusel">
+      <div class="team__carrusel__card">
+        <img src="./src/imagenes/IMAGE TEAM 1.jpg" alt="">
+        <p class="team__carrusel__card--name">Jhon Smith</p>
+        <p class="team__carrusel__card--profession">Math Teacher</p>
+        <button class="btn secondary">Read More</button>
+      </div>
+      <div class="team__carrusel__card">
+        <img src="./src/imagenes/IMAGE TEAM 2.jpg" alt="">
+        <p class="team__carrusel__card--name">Jhon Smith</p>
+        <p class="team__carrusel__card--profession">Math Teacher</p>
+        <button class="btn secondary">Read More</button>
+      </div>
+      <div class="team__carrusel__card">
+        <img src="./src/imagenes/IMAGE TEAM 3.jpg" alt="">
+        <p class="team__carrusel__card--name">Jhon Smith</p>
+        <p class="team__carrusel__card--profession">Math Teacher</p>
+        <button class="btn secondary">Read More</button>
+      </div>
+      <div class="team__carrusel__card">
+        <img src="./src/imagenes/IMAGE TEAM 4.jpg" alt="">
+        <p class="team__carrusel__card--name">Jhon Smith</p>
+        <p class="team__carrusel__card--profession">Math Teacher</p>
+        <button class="btn secondary">Read More</button>
+      </div>
+    </div>
+    <button class="team--btn btn primary">View More</button>
+  </section>
+  <section class="reviews" id="reviews">
+    <div class="reviews__container">
+      <div class="reviews__container__msg">
+        <h2 class="reviews__container__msg--titulo">VIEW TESTIMONIALS</h2>
+        <p>FOR US IT IS VERY IMPORTANT TO KNOW THE OPINIONS OF OUR CLIENTS</p>
+      </div>
+      <div class="reviews__container__video-controller">
+        <!-- --- -->
+
+        <!-- Button trigger modal -->
+        <button type="button" class="reviews__container__video-controller--btn  btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          <i class="bi bi-play-circle-fill"></i>
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Review video</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body" style="display: flex; align-items: center; justify-content: center;">
+                <video src="./src/Videos/review-1.mp4" class="reviews__container__video-controller--video" controls></video>
+
+
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- --- -->
+      </div>
+    </div>
+  </section>
+  <!-- esto lo hago mañana -->
+  <footer class="footer">
+    <div class="footer__top">
+
+      <div class="footer__top__logo">
+        <img src="./src/imagenes/LOGO.png" alt="">
+      </div>
+      <nav class="footer__top__quick-links">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#about-us">About Us</a></li>
+          <li><a href="#carreers">Courses</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </nav>
+      <div class="footer__top__contact">
+        <h3>Contact Info</h3>
+        <ul>
+          <li>
+            <i class="bi bi-telephone-fill"></i>
+            <p>123 456 789</p>
+          </li>
+          <li>
+            <i class="bi bi-envelope-fill"></i>
+            <p>info@email.com</p>
+          </li>
+          <li>
+            <i class="bi bi-geo-alt"></i>
+            <p>address, United Estates</p>
+          </li>
+        </ul>
+        <div class="footer__contact__social">
+          <i class="bi bi-facebook"></i>
+          <i class="bi bi-instagram"></i>
+          <i class="bi bi-youtube"></i>
+        </div>
+      </div>
+      <div class="footer__top__news-letter">
+        <h3>NewsLetter</h3>
+        <p>Recive all our promotions and notifications</p>
+        <div class="footer__top__news-letter__input-field">
+          <input type="text">
+          <button class="btn primary">Sumit</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <div class="footer__bottom__copy">
+        <p>&copy; Copyright University. All Rights Reserved</p>
+        <p>This Website Was Designed And Developed by Josesilvera.com</p>
+      </div>
+      <img src="./src/imagenes/logo Silvera Enterprises.png" alt="">
+    </div>
+  </footer>
+
+  <!-- btstp -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>

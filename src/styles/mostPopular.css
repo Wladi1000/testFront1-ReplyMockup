@@ -1,0 +1,43 @@
+.most-popular{
+  display: grid;
+  padding: 50px 100px;
+}
+.most-popular__carrusel{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5rem;
+
+  padding: 5%;
+}
+.most-popular__carrusel__card{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 250px;
+
+  border-radius: 1rem;
+  /* border: #FFB749 solid 1px; */
+
+  box-shadow: #00000034 4px 5px 5px;
+}
+.most-popular__carrusel__card img{
+  object-fit: contain;
+  width: 100%;
+  border-bottom: solid 5px #013248;
+  border-radius: 1rem 1rem 0 0;
+}
+.most-popular__carrusel__card p{
+  border-top: solid 5px #FFB749;;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.most-popular__carrusel__card button{
+  margin-bottom: 20px;
+}
+.most-popular .btn.secondary{
+  transform: scale(1.2);
+  place-self: center;
+}

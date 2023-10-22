@@ -1,0 +1,71 @@
+.reviews{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0px;
+
+  width: 100%;
+}
+.reviews__container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+
+  /* width: 700px; */
+
+  padding: 50px 30px;
+
+  /* background-color: bisque; */
+  background-image: url('../imagenes/IMAGE\ \ CATEGORY\ ARCHITECTURE.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.reviews__container__msg{
+  width: 200px;
+  text-align: center;
+  font-weight: 700;
+  color: #fff;
+}
+.reviews__container__msg--titulo{
+  font-size: 11px;
+}
+.reviews__container__msg p{
+  font-size: 20px;
+}
+.reviews__container__video-controller--btn{
+  position: relative;
+
+  width: 260px;
+  height: 260px;
+  border: none;
+  background-color: none;
+  background-image: url('../imagenes/person_4.jpg');
+  background-position: center;
+
+  transition: all 0.2s;
+}
+.reviews__container__video-controller--btn i{
+  color: red;
+  font-size: 50px;
+}
+.reviews__container__video-controller--btn:hover{
+  transform: scale(1.15);
+  cursor: pointer;
+}
+.reviews__container__video-controller--video{
+  width: 100%;
+}
+/* 
+<section class="reviews">
+  <div class="reviews__container">
+    <div class="reviews__container__msg">
+      <h2 class="reviews__container__msg--titulo">VIEW TESTIMONIALS</h2>
+      <p>FOR US IT IS VERY IMPORTANT TO LNOW THE OPINIONS OF OUR CLIENTS</p>
+    </div>
+    <div class="review__container__video-controller">
+      <video src="./src/Videos/review-1.mp4" controls></video>
+    </div>
+  </div>
+</section>
+ */

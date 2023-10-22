@@ -1,0 +1,53 @@
+.beneficios{
+  background-image: url('../imagenes/BACKGROUND\ BENEFITS.jpg');
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+.beneficios ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 50px 100px;
+  width: 100%;
+  gap: 4rem;
+
+  list-style: none;
+  background-color: hsla(200, 95%, 17%, 0.668);
+}
+.beneficios ul li{
+  display: grid;
+  place-items: center;
+  color: #fff;
+  width: 160px;
+}
+.beneficios ul li div{
+  display: grid;
+  place-content: center;
+  padding: 15px;
+  max-width: 80px;
+  border-radius: 5rem;
+  background-color: #fff;
+}
+.beneficios ul li img{
+  width: 100%;
+}
+.beneficios ul li p{
+  width: 75px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+
+
+/* 
+<section class="beneficios">
+  <ul>
+    <li><img src="./src/imagenes/ICONO 1.png" alt=""></li>
+    <li><img src="./src/imagenes/ICONO 2.png" alt=""></li>
+    <li><img src="./src/imagenes/ICONO 3.png" alt=""></li>
+    <li><img src="./src/imagenes/ICONO 4.png" alt=""></li>
+  </ul>
+</section>
+ */

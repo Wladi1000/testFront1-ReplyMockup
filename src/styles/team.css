@@ -1,0 +1,73 @@
+.team{
+  display: flex;
+  flex-direction: column;
+  padding: 50px 100px;
+  background-color: #EFEFEF;
+}
+.team__carrusel{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5rem;
+
+  padding: 5%;
+}
+.team__carrusel__card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+  padding: 30px 20px;
+  max-width: 200px;
+  border-radius: 1rem;
+  background-color: #fff;
+  background-image: url('../imagenes/IMAGE\ BACKGROUND\ CARD\ TEAM\ \ \(1\).jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 0 -70px;
+
+  font-weight: 700;
+}
+.team__carrusel__card img{
+  border-radius: 5rem;
+  width: 40%;
+  border: solid 3px #fff;
+}
+.team__carrusel__card button{
+  transform: scale(0.8);
+}
+.team__carrusel__card--name{
+  color: #000;
+  padding-top: 10px;
+}
+.team__carrusel__card--profession{
+  color: #FFB749;
+  padding-bottom: 10px;
+}
+.team__carrusel__card .btn.secondary{
+  border: 3px solid #FFB749;
+}
+.team--btn{
+  align-self: center;
+  transform: scale(1.2);
+}
+/* 
+<section class="team">
+  <div class="team__msg subtitulo">
+    <h1>Our Team</h1>
+    <div class="subtitulo--linea"></div>
+    <p>Meet the best professionals</p>
+  </div>
+  <div class="team__carrusel">
+    <div class="team__carrusel__card">
+      <img src="./src/imagenes/IMAGE TEAM 1.jpg" alt="">
+      <p class="team__carrusel__card--name">Jhon Smith</p>
+      <p class="team__carrusel__card--profession">Math Teacher</p>
+      <button class="btn secondary">Read More</button>
+    </div>
+  </div>
+  <button class="btn secondary">View More</button>
+</section>
+ */

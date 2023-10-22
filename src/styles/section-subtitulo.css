@@ -1,0 +1,15 @@
+.subtitulo{
+  width: 380px;
+}
+.subtitulo h1{
+  font-size: 1.5rem;
+}
+.subtitulo--linea{
+  /* margin-left: 1rem; */
+  width: 60%;
+  border-bottom: solid 2.5px #FFB749;
+}
+.subtitulo p{
+  font-size: 1.5rem;
+  font-weight: 700;
+}
